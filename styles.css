@@ -3,6 +3,8 @@
 
 :root {
     --primary-color: #a855f7;
+    --gray-color: gray;
+    --off-color:#e2e8f0;
 }
 
 body{
@@ -52,18 +54,62 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0rem 1rem;
+    text-decoration: none;
 }
 
 .navigation{
     background-color: var(--primary-color);
     color: white;
-
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .links{
     text-decoration: none;
     color: white;
 }
+
+.navigation-aling{
+    text-align: right;
+}
+
+/** header **/
+
+.hero{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    text-align: center;
+    color:var(--gray-color);
+    padding: 1rem;
+}
+
+
+
+ /* sections */
+
+ .saction h3{
+    text-align: center;
+ }
+
+ .ow{
+    background-color: var(--off-color);
+ }
+
+ /* footer */
+
+
+.footer{
+    background-color: #a855f7;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    
+}
+
 
 
 
