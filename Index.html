@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html components</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -17,29 +18,36 @@
     <hr>
 
     <h2>@container </h2>
-    <h3> fliud container </h3>
-    <div>this will go full width of container </div>
+    <h3 > fliud container </h3>
+    <div class="container ">this will go full width of container </div>
 
     <h3> center container</h3>
-    <div> this will go center of the container</div>
+    <div class="container container-center"> this will go center of the container</div>
     <hr>
 
     <h2> @links</h2>
 
-    <a href="/"> primary link </a>,
-    <a href="/"> secondary link </a>
+    <a class ="link  link-primary" href="/"> primary link </a> 
+    <a class ="link link-secondary"href="/"> secondary link </a>
     <hr>
 
     <h2>@lists </h2>
 
     <h3> unodered lists</h3>
-    <ul>
+    <p> this list should not have <strong> bullet </strong></p>
+    <ul class="non-bullet">
         <li> milk</li>
         <li> eggs</li>
         <li> roti </li>
     </ul>
+    <h3> unodered inline list</h3>
+    <ul class="non-bullet">
+        <li class="list-item-inline"> milk</li>
+        <li class="list-item-inline"> eggs</li>
+        <li class="list-item-inline"> roti</li>
+    </ul>
     <h3> odered lists</h3>
-    <ol>
+    <ol reversed>
         <li> milk</li>
         <li> eggs</li>
         <li> roti </li>
@@ -47,18 +55,21 @@
     <hr>
 
     <h2>@nav</h2>
-    <h3> iam brand</h3>
-    <ul>
-        <li> 
-            <a href="/"> home</a>
-        </li>
-        <li> 
-            <a href="/"> project</a>
-        </li>
-        <li>
-            <a href="/"> about </a>
-        </li>
-    </ul>
+    <nav class="navigation">
+        <h3> iam brand</h3>
+        <ul>
+            <li class="list-item-inline"> 
+                <a class="links"href="/"> home</a>
+            </li>
+            <li class="list-item-inline"> 
+                <a class="links" href="/"> project</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/"> about </a>
+            </li> 
+        </ul>
+    </nav>
+
     <hr>
 
     <h2> @header</h2>
