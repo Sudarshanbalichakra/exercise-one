@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html components</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <h1> @typography</h1>
+    <h1> h1 this is the biggest line in html </h1>
+    <h2> this is the smaller text than h1 </h2>
+    <h3> this the samller text than h2 </h3>
+    <p> this is the paragraph we use for small lines</p>
+    <small> this is the small text we use in html </small>
+    <hr>
+
+    <h2>@container </h2>
+    <h3 > fliud container </h3>
+    <div class="container ">this will go full width of container </div>
+
+    <h3> center container</h3>
+    <div class="container container-center"> this will go center of the container</div>
+    <hr>
+
+    <h2> @links</h2>
+
+    <a class ="link  link-primary" href="/"> primary link </a> 
+    <a class ="link link-secondary"href="/"> secondary link </a>
+    <hr>
+
+    <h2>@lists </h2>
+
+    <h3> unodered lists</h3>
+    <p> this list should not have <strong> bullet </strong></p>
+    <ul class="non-bullet">
+        <li> milk</li>
+        <li> eggs</li>
+        <li> roti </li>
+    </ul>
+    <h3> unodered inline list</h3>
+    <ul class="non-bullet">
+        <li class="list-item-inline"> milk</li>
+        <li class="list-item-inline"> eggs</li>
+        <li class="list-item-inline"> roti</li>
+    </ul>
+    <h3> odered lists</h3>
+    <ol reversed>
+        <li> milk</li>
+        <li> eggs</li>
+        <li> roti </li>
+    </ol>
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <h3> iam brand</h3>
+        <ul class="navigation-aling">
+            <li class="list-item-inline"> 
+                <a class="links"href="/"> home</a>
+            </li>
+            <li class="list-item-inline"> 
+                <a class="links" href="/"> project</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/"> about </a>
+            </li> 
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2> @header</h2>
+    
+    <header>
+        
+        <img class="hero" src="image/sudu.svg"> 
+        <h2 class="hero-heading"> heading inside the header  </h2>
+    </header>
+    <hr>
+
+
+    <h2> @section</h2>
+
+    <section  class="saction">
+        <h1> white section</h1>
+        <div class="container-center"> this will get white color background </div>
+    </section>
+   
+    <section class="saction ow">
+        <h1> off white section</h1>
+        <div class="container-center"> this will get gray color background</div>
+    </section>
+    
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer"> 
+        <div> these are the some social links</div>
+        <ul class="non-bullet">
+            <li class="list-item-inline">
+                <a class="links" href="/">soacial one</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="links" href="/">soacial two</a>
+            </li>
+            <li class="list-item-inline" >
+                <a class="links" href="/">soacial three</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>

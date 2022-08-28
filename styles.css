@@ -2,9 +2,10 @@
 
 
 :root {
-    --primary-color: #a855f7;
+    --primary-color: black;
     --gray-color: gray;
     --off-color:#e2e8f0;
+    --black-color: black;
 }
 
 body{
@@ -31,12 +32,16 @@ hr{
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: white;
+    margin: 2px;
+    
 }
 
 .link-primary{
    background-color:var(--primary-color);
    border-radius: 0.5rem;
    color: white;
+  
+  
 }
 
 .link-secondary{
@@ -55,10 +60,13 @@ hr{
     display: inline;
     padding: 0rem 1rem;
     text-decoration: none;
+    
 }
 
+/** nav **/
+
 .navigation{
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -67,6 +75,8 @@ hr{
 .links{
     text-decoration: none;
     color: white;
+    margin: 1rem;
+
 }
 
 .navigation-aling{
@@ -76,14 +86,15 @@ hr{
 /** header **/
 
 .hero{
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin: auto;
+    margin-top: 2rem;
 }
 
 .hero-heading{
     text-align: center;
-    color:var(--gray-color);
+    color:var(--primary-color);
     padding: 1rem;
 }
 
@@ -91,7 +102,7 @@ hr{
 
  /* sections */
 
- .saction h3{
+ .saction h1{
     text-align: center;
  }
 
