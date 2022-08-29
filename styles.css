@@ -41,12 +41,11 @@ hr{
     padding: 0.5rem 1rem;
     color: white;
     margin: auto;
-   
-    
+ 
 }
 
 .link-primary{
-   background-color:var(--primary-color);
+    background-color:var(--primary-color);
    border-radius: 0.5rem;
    color: white;
   
@@ -68,9 +67,13 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 1rem;
+    padding: rem 1rem;
     text-decoration: none;
     
+}
+
+.list-nor{
+    margin: auto;
 }
 
 /** nav **/
@@ -112,7 +115,7 @@ hr{
 
  /* sections */
 
- .saction h1{
+ .saction {
     text-align: center;
     margin: auto;
     

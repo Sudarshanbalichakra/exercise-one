@@ -47,7 +47,7 @@
         <li class="list-item-inline"> roti</li>
     </ul>
     <h3> odered lists</h3>
-    <ol reversed>
+    <ol class="list-nor">
         <li> milk</li>
         <li> eggs</li>
         <li> roti </li>
