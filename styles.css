@@ -13,9 +13,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    
-
-  
+    padding: 0%;
 }
 
 hr{
@@ -70,10 +68,6 @@ hr{
     padding: rem 1rem;
     text-decoration: none;
     
-}
-
-.list-nor{
-    margin: auto;
 }
 
 /** nav **/
