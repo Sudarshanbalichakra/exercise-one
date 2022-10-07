@@ -65,7 +65,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: rem 1rem;
+    padding:1rem;
     text-decoration: none;
     
 }
@@ -126,8 +126,8 @@ hr{
 
 .footer{
     background-color:var(--black-color);
-    padding: 1rem; margin: 0;
-   text-align: center;
+    padding: 1rem; margin:auto;
+    text-align: center;
     color: white;
     font-size: 30px;
     
